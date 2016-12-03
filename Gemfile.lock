@@ -59,6 +59,10 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     geocoder (1.4.0)
+    geokit (1.10.0)
+    geokit-rails (2.2.0)
+      geokit (~> 1.5)
+      rails (>= 3.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     gmaps4rails (2.1.2)
@@ -75,6 +79,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
+    markerclustererplus-rails (2.1.2.1)
     method_source (0.8.2)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
@@ -165,9 +170,11 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   dotenv-rails
   geocoder
+  geokit-rails
   gmaps4rails
   jbuilder (~> 2.0)
   jquery-rails
+  markerclustererplus-rails
   pry-rails
   rails (= 4.2.7.1)
   sass-rails (~> 5.0)
